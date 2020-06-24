@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body onload="check()">
+        <fieldset onload="check()">
+            <p id="demo"></p>
+        </fieldset>
+
+        <script>
+            function check() {
+                var text = "";
+                if (navigator.cookieEnabled == true) {
+                    text = "fuck";
+                }
+                else {
+                    text = "who";
+                }
+                document.getElementById("demo").innerHTML = text;
+            }
+
+            function fu() {
+                document.getElementById("hihi").innerHTML = "hihi";
+            }
+        </script>
+
+        <?php
+            echo "hi";
+        ?>
+    </body>
+</html>

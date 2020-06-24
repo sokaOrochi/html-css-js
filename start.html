@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Document</title>
+    <!-- 
+    <style>
+        h1 {color: blue;}
+        p {color: red;}
+    </style>
+    -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: powderblue;">
+    <a href="https://www.google.com" target="_self">Google</a><br>
+    <a href="https://www.google.com" target="_blank">Google</a><br>
+    <a href="https://www.google.com" target="_parent">Google</a><br>
+    <a href="https://www.google.com" target="_top">Google</a><br>
+    <a href="https://www.google.com" target="_blank">
+    <img src="/images/chris.png" alt="chris">
+    </a><br>
+    <a href="mailto:xxx@gmail.com">Send email</a><br>
+    <button onclick="document.location='helloworld.html'">hihi</button><br>
+    <a href="https://www.google.com" title="hihih">google</a>
+
+    <a href="helloworld.html" target="_blank">page</a>
+    <h1 style="background-color: slateblue; color: blue;">heading 1</h1>
+    <h2 style="font-family: Verdana;">heading 2</h2>
+    <h3 style="font-size: 300%;">heading 3</h3>
+    <h4 style="text-align: center;">heading 4</h4>
+    <h5>heading 5</h5>
+    <h6 style="background-color: rosybrown;">heading 6</h6>
+    <h6 style="font-size:60px">heading 6 with 60px font size</h6>
+    <br>
+    <a href="https://www.google.com">Google</a>
+    <br>
+
+    <h2 id="h2" style="font-size: 1000%;">heading 2</h2>
+
+    <img src="/images/chris.png" alt="hihi", width="300">
+    <br>
+
+    <p style="color: red;"> hihi</p>
+    <p title="tooltip"> hihi</p>
+    <p>
+        this is a paragram.
+        I am not sure there is a blank line here.
+    </p>
+    <hr>
+
+    <p>hihi</p>
+    <br>
+
+    <pre>
+        this is a paragram.
+        I am not sure there is a blank line here.
+    </pre>
+
+    <b>bold</b>
+    <strong>strong</strong>
+    <i>italic</i>
+    <em>emphasized</em>
+    <small>small</small>
+    <mark>mark</mark>
+    <del style="border: 2px solid Tomato;">deleted</del>
+    <ins>inserted</ins>
+    <sub>subscripted</sub>
+    <sup>superscripted</sup>
+    <p>Google</p><blockquote cite="https://www.google.com"></blockquote>
+    <q>quotation</q>
+    <abbr title="Google">Google</abbr>
+    <address style="color: blue;">
+        Written by Chris<br>
+        Shit<br>
+    </address>
+    <cite style="background-color: chartreuse;">Book</cite><br>
+    <bdo dir="rtl">right to left</bdo>
+
+    <a href="#h2">Jump to h2</a>
+    <a href="helloworld.html#C4">hihi</a>
+
+    <img src="/images/chris.png" alt="hihi" width="500" height="500">
+    <hr>
+    <!-- <img src="/images/a.gif" alt="hihi" style="float:right;"> -->
+    <img src="/images/chris.png" alt="chris" usemap="#chris">
+
+    <map name="chris">
+        <!-- <area shape="rect" coords="34,44,270,350" alt="hihi" href="helloworld.html"> -->
+        <area shape="rect" coords="34,44,270,350" alt="hihi" onclick="myFunction()">
+    </map>
+    <script>
+        function myFunction() {
+            alert("Fuck you.");
+        }
+    </script>
+
+    <hr>
+    <div>
+        <h4>
+            hihi
+        </h4>
+    </div>
+
+    <hr>
+    <picture>
+        <source meida="(min-width: 650px)" srcset="/images/chris.png">
+        <source meida="(min-width: 465px)" srcset="/images/orochi.png">
+        <img src="/images/orochi.png">
+    </picture>
+
+    <hr>
+    <table>
+        <tr>
+            <th>First</th>
+            <th>Last</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Fucker</td>
+            <td>Mother</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Tel</th>
+        </tr>
+        <tr>
+            <td>Chris</td>
+            <td>123</td>
+            <td>234</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Testing</td>
+        </tr>
+        <tr>
+            <th rowspan="2">tel:</th>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>hihi</caption>
+        <tr>
+            <td>hihi</td>
+        </tr>
+    </table>
+    <table id="t01">
+        <caption>
+            this is a caption
+        </caption>
+        <tr>
+            <th>
+                hihi
+            </th>
+            <th>
+                hellohello
+            </th>
+        </tr>
+        <tr>
+            <td>
+                who
+            </td>
+            <td>
+                are
+            </td>
+        </tr>
+    </table>
+    <ul>
+        <li>hihi</li>
+        <li>hihi</li>
+        <li>hihi</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>hihi</li>
+            <ul>
+                <li>hihihihihih</li>
+            </ul>
+        <li>hihi</li>
+        <li>hihi</li>
+    </ul>
+    <ol>
+        <li>hihihi</li>
+        <li>hihihi</li>
+        <li>hihihi</li>
+        <li>hihihi</li>
+    </ol>
+    <dl>
+        <dt>hihi</dt>
+        <dd>hihihihihi</dd>
+        <dt>hihi</dt>
+        <dd>hihihihihi</dd>
+    </dl>
+</body>
+</html>

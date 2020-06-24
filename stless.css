@@ -1,0 +1,14 @@
+.city {
+    background-color: red;
+    color: yellow;
+}
+
+.note {
+    color: yellow;
+    font-size: 300%;
+}
+
+#notes {
+    color: yellow;
+    background-color: green;
+}

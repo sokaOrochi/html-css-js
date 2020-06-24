@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>
+        form
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="en-US" />
+</head>
+
+<body>
+    <form action="" target="_blank" method="get">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="Chris"><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Chan"><br />
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <form action="">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br />
+        <input type="submit" value="Submit">
+    </form>
+
+    <form action="" method="get">
+        <select id="cars" name="cars" size="2" multiple>
+            <option value="a">a</option>
+            <option value="b" selected>b</option>
+            <option value="c">c</option>
+            <input type="submit" value="Fuck">
+        </select>
+    </form>
+
+    <textarea name="message" style="width:2px; height:6px;">
+        hihi
+    </textarea>
+
+    <button type="button" onclick="alert('hihi')">fuck</button>
+    <form action="" method="get" target="_blank">
+    <fieldset>
+        <legend>hihi</legend>
+        <label for="fname">first name</label>
+        <input type="text" id="fname" name="fname" value="Chris"><br />
+        <input type="submit" value="fufuffu">
+    </fieldset>
+    </form>
+
+    <hr>
+    <form action="" method="get" target="_self">
+        <input list="sex" name="sex">
+        <datalist id="sex">
+            <option value="ie">
+            <option value="ie">
+            <option value="ie">
+            <option value="ie">
+            <option value="ie">
+            <option value="ie">
+        </datalist>
+        <input type="submit" value="submit">
+    </form>
+
+    <form>
+        <input type="range" id="apple" name="apple" value="1">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

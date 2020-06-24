@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>human zoo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" conetnt="text/html"; charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="hz.css">
+        <script src="hz.js"></script>
+    </head>
+    <body onload="tp()">
+        <fieldset>
+            <legend>Roles</legend>
+            <div class="word_game">
+                <p id="time_periods"></p>
+            </div>
+            <button type="button" id="master" name="master" onclick="master()">Master</button>
+            <button type="button" id="zoo" name="zoo" onclick="zoo()">Zoo</button>
+            <button type="button" id="slave" name="slave" onclick="slave()">Slave</button>
+        </fieldset>
+
+        <div id="master_field">
+            <fieldset>
+                <legend>
+                    Master
+                </legend>
+            </fieldset>
+        </div>
+
+        <div id="zoo_field">
+            <fieldset>
+                <legend>
+                    Zoo
+                </legend>
+            </fieldset>
+        </div>
+
+        <div id="slave_field">
+            <fieldset>
+                <legend>
+                    Slave
+                </legend>
+            </fieldset>
+        </div>
+    </body>
+</html>

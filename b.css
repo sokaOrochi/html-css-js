@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+header {
+    background-color: #666;
+}
+
+nav {
+    float: left;
+    width: 10%;
+    height: 300px;
+    padding: 20px;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 90%;
+    height: 300px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #777;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#chris {
+    max-width: 100%;
+    height: auto;
+}
